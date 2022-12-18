@@ -55,7 +55,7 @@ body {
     display: flex;
     flex-direction: column;
     align-content: center;
-    align-items: center;
+    align-items: flex-start;
 }
 
 h3 {
@@ -119,7 +119,7 @@ footer {
 
 }
 
-nav {
+/* nav {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -131,8 +131,8 @@ nav {
     box-shadow: 1px 1px 5px 2px rgba(0, 0, 0, 0.219);
     min-width: 500px;
     height: 8vh;
-    /* margin-bottom: 1.5vh; */
-}
+    margin-bottom: 1.5vh;
+} */
 
 button {
     width: 100px;
@@ -145,7 +145,12 @@ input {
 }
 
 img {
-    width: 120px;
+    width: 200px;
+    height: auto;
+}
+
+.img-pequena {
+    width: 110px;
     height: auto;
 }
 
@@ -168,7 +173,7 @@ img {
     justify-content: center;
     margin: auto;
     width: 58%;
-    background-color: red;
+    background-color: none;
 }
 
 .centralizar {
@@ -189,7 +194,7 @@ img {
     margin-top: 0.5vh;
     height: 80vh;
     background-color: #333333;
-    width: 70%;
+    width: 65%;
 }
 
 .buttonX {
