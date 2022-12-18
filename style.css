@@ -1,0 +1,224 @@
+@charset "UTF-8";
+
+@import url();
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Edu+TAS+Beginner&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Hind:wght@300;700&display=swap');
+
+
+@font-face {
+    font-family: 'Matcha';
+    src: url(../fontes/Matcha\ Latte.ttf);
+}
+
+:root {
+    --cor01: #fff;
+    --cor02: #268bb6bd;
+    --cor03: #b144a1af;
+    --cor04: ;
+    --cor05: ;
+    --cor06: ;
+    --cor07: ;
+    --cor08: ;
+    --cor09: ;
+    --cor10: #000;
+
+    --font-Matcha: 'Matcha', sans-serif;
+    --font-Mon: 'Montserrat', sans-serif;
+    --font-Edu: 'Edu TAS Beginner', sans-serif, cursive;
+    --font-Hind: 'Hind', sans-serif;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+
+}
+
+a {
+    margin: 6px;
+    text-decoration: none;
+    color: #fff;
+}
+
+picture>img {
+    width: 100%;
+    height: auto;
+}
+
+body {
+    background-color: #222;
+    font-family: 'XXX';
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+}
+
+h3 {
+    font-family: var(--font-Mon);
+    font-size: 30px;
+}
+
+body>p {}
+
+body>h1 {}
+
+header {}
+
+header>h1 {}
+
+header>p {}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    background-color: #fff;
+    border-radius: 8px;
+    margin-top: 1.5vh;
+    width: 60%;
+    max-width: 1400px;
+    min-width: 360px;
+    height: 800px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+label {
+    margin-left: 15px;
+    text-transform: uppercase;
+    font-family: var(--font-Mon);
+}
+
+section {
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    gap: 15px;
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: orange;
+    width: 100%;
+    height: 5vh;
+    margin-top: 1vh;
+
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+    background-color: #333333;
+    color: white;
+    width: 100%;
+    box-shadow: 1px 1px 5px 2px rgba(0, 0, 0, 0.219);
+    min-width: 500px;
+    height: 8vh;
+    /* margin-bottom: 1.5vh; */
+}
+
+button {
+    width: 100px;
+    height: 28px;
+    font-family: var(--font-Mon);
+}
+
+input {
+    border-radius: 5px;
+}
+
+img {
+    width: 120px;
+    height: auto;
+}
+
+.selecao {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    width: 38%;
+    flex-wrap: wrap;
+    gap: 20px;
+    background-color: #333333;
+}
+
+.character {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    width: 58%;
+    background-color: red;
+}
+
+.centralizar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    width: 60%;
+    gap: 4%;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-items: center;
+    margin-top: 0.5vh;
+    height: 80vh;
+    background-color: #333333;
+    width: 70%;
+}
+
+.buttonX {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: red;
+    color: white;
+    width: 25px;
+    height: 25px;
+    padding: 3px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.buttonX:hover {
+    background-color: red;
+    scale: 1.1;
+    transition: 0.3s;
+}
+
+.subsection {
+    background-color: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width:300px;
+    height: 3vh;
+    gap: 5%;
+}
