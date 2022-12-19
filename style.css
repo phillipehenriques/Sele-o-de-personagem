@@ -50,12 +50,12 @@ picture>img {
 }
 
 body {
-    background-color: #222;
+    background-color: rgb(4, 4, 4);
     font-family: 'XXX';
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-content: center;
-    align-items: flex-start;
+    align-items: center;
 }
 
 h3 {
@@ -159,11 +159,15 @@ img {
     flex-direction: row;
     align-items: center;
     justify-content: center;
+    position: relative;
+    z-index: 10;
     margin: auto;
-    width: 38%;
+    width: 58%;
+    height: 100vh;
     flex-wrap: wrap;
     gap: 20px;
-    background-color: #333333;
+    background-color: black;
+    box-shadow: 1px 1px 10px 3px black;
 }
 
 .character {
@@ -172,8 +176,10 @@ img {
     align-items: center;
     justify-content: center;
     margin: auto;
-    width: 58%;
-    background-color: none;
+    width: 42%;
+    height: 100vh;
+    background-color: rgb(6, 6, 6);
+    box-shadow: 1px 1px 10px 3px black;
 }
 
 .centralizar {
@@ -181,8 +187,8 @@ img {
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    margin: auto;
-    width: 60%;
+    /* margin: auto; */
+    width: 100%;
     gap: 4%;
 }
 
@@ -191,10 +197,9 @@ img {
     flex-direction: row;
     align-items: center;
     justify-items: center;
-    margin-top: 0.5vh;
-    height: 80vh;
-    background-color: #333333;
-    width: 65%;
+    height: 100vh;
+    background-color: none;
+    width: 85%;
 }
 
 .buttonX {
