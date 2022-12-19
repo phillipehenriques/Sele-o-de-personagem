@@ -152,6 +152,8 @@ img {
 .img-pequena {
     width: 110px;
     height: auto;
+    border: 2px solid white;
+    border-radius: 7px;
 }
 
 .selecao {
@@ -168,6 +170,7 @@ img {
     gap: 20px;
     background-color: black;
     box-shadow: 1px 1px 10px 3px black;
+    /* border: 2px solid white; */
 }
 
 .character {
