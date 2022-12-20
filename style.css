@@ -56,6 +56,8 @@ body {
 h3 {
     font-family: var(--font-Mon);
     font-size: 30px;
+    color: #fff;
+    margin-bottom: 3vh;
 }
 
 body>p {}
@@ -140,15 +142,32 @@ input {
 }
 
 img {
-    width: 200px;
+    width: 320px;
     height: auto;
 }
 
 .img-pequena {
-    width: 110px;
+    width: 80px;
     height: auto;
-    border: 2px solid white;
-    border-radius: 7px;
+    margin-left: 1.5vw;
+    padding: 10px;
+    border: 3px solid black;
+    border-radius: 12px;
+    background-color: rgb(10, 10, 10);
+    box-shadow: 1px 1px 10px 1px black;
+    transition: 0.5s;
+}
+
+.img-pequena:hover {
+    width: 90px;
+    transition: 0.5s;
+    height: auto;
+    margin-left: 1.5vw;
+    padding: 10px;
+    border: 3px solid black;
+    border-radius: 12px;
+    background-color: rgb(32, 32, 32);
+    box-shadow: 1px 1px 10px 1px black;
 }
 
 .selecao {
@@ -158,8 +177,8 @@ img {
     justify-content: center;
     position: relative;
     z-index: 10;
-    margin: auto;
-    width: 58%;
+    margin-left: auto;
+    width: 50%;
     height: 100vh;
     flex-wrap: wrap;
     background-color: black;
@@ -172,32 +191,46 @@ img {
     align-items: center;
     justify-content: center;
     margin: auto;
-    width: 42%;
+    width: 50%;
     height: 100vh;
     background-color: rgb(6, 6, 6);
     box-shadow: 1px 1px 10px 3px black;
 }
 
-.boxSelecao {
-    background-color: none;
+.boxCharacter {
     display: flex;
-    flex-direction: column;
-    align-items: center;
+    flex-direction: row;
+    align-items: flex-end;
     justify-content: center;
-    width: 15vw;
+    width: 50%;
     height: 55vh;
-    flex-wrap: wrap;
-    gap: 10px;
+    background-color: rgb(6, 6, 6);
 }
 
-.centralizar {
+.boxSelecao {
+    border-radius: 12px;
+    background-color: #111;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    margin-left: 2vw;
+    width: 30vw;
+    height: 60vh;
+    /* flex-wrap: wrap; */
+    gap: 20px;
+}
+
+.personagem1 {
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: center;
-    /* margin: auto; */
-    width: 100%;
-    gap: 4%;
+    justify-items: center;
+}
+
+.personagemNome {
+    margin-left: 2vw;
+    color: #fff;
 }
 
 .container {
@@ -210,6 +243,15 @@ img {
     width: 85%;
 }
 
+.centralizar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    /* margin: auto; */
+    width: 100%;
+    gap: 4%;
+}
 .buttonX {
     display: flex;
     flex-direction: row;
