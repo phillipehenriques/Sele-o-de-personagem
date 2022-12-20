@@ -187,7 +187,7 @@ img {
 
 .character {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
     margin: auto;
@@ -199,10 +199,10 @@ img {
 
 .boxCharacter {
     display: flex;
-    flex-direction: row;
-    align-items: flex-end;
-    justify-content: center;
-    width: 50%;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-end;
+    width: 70%;
     height: 55vh;
     background-color: rgb(6, 6, 6);
 }
@@ -252,6 +252,7 @@ img {
     width: 100%;
     gap: 4%;
 }
+
 .buttonX {
     display: flex;
     flex-direction: row;
